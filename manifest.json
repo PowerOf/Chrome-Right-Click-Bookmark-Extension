@@ -2,7 +2,9 @@
     "manifest_version": 3,
     "name": "Right-Click Bookmark",
     "version": "1.0",
-    "permissions": ["contextMenus", "bookmarks"],
+    "permissions": ["contextMenus", 
+    "bookmarks",
+    "notifications"],
     "background": {
       "service_worker": "background.js"
     }
